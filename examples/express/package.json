@@ -5,7 +5,7 @@
     "start": "node ./app.js"
   },
   "dependencies": {
-    "ejs": "^2.6.1",
+    "@cond/ejs": "^1.0.0",
     "express": "~4.16.0"
   }
 }
