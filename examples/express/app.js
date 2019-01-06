@@ -1,8 +1,9 @@
 var express = require('express');
 var path = require('path');
-var ejs = require('ejs');
+var ejs = require('@cond/ejs');
 
 var app = express();
+app.engine('ejs', ejs.renderFile);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
