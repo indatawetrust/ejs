@@ -1,12 +1,12 @@
 {
-  "name": "ejs",
+  "name": "@cond/ejs",
   "description": "Embedded JavaScript templates",
   "keywords": [
     "template",
     "engine",
     "ejs"
   ],
-  "version": "2.6.1",
+  "version": "1.0.0",
   "author": "Matthew Eernisse <mde@fleegix.org> (http://fleegix.org)",
   "contributors": [
     "Timothy Gu <timothygu99@gmail.com> (https://timothygu.github.io)"
@@ -19,7 +19,9 @@
   },
   "bugs": "https://github.com/mde/ejs/issues",
   "homepage": "https://github.com/mde/ejs",
-  "dependencies": {},
+  "dependencies": {
+    "html-minifier": "^3.5.21"
+  },
   "devDependencies": {
     "browserify": "^13.1.1",
     "eslint": "^4.14.0",
